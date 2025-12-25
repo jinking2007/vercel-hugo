@@ -179,25 +179,3 @@ footer.main-footer .footer-text a:hover {
 .panel .panel-body a:hover {
     color: #979898;
 }
-
-/* ============================================
-   侧边栏宽度调整专用设置
-   注意：这里的数值 (220px) 必须和 sidebar.html 里的 width 数值一致
-   ============================================ */
-
-@media (min-width: 768px) {
-    /* 1. 调整右侧主体内容区域的左边距，让出位置给侧边栏 */
-    .main-content {
-        margin-left: 220px !important; /* 修改这里：改成你想要的宽度 */
-    }
-    
-    /* 2. 调整顶部导航栏的左边距，让它跟内容对齐 */
-    .big-header-banner .navbar {
-        margin-left: 220px !important; /* 修改这里：数值必须上面保持一致 */
-    }
-}
-
-/* (可选) 如果你想让侧边栏里的文字和图标间距也稍微宽一点 */
-.sidebar-menu-inner ul li a {
-    padding-left: 20px; /* 可以微调内部间距 */
-}
