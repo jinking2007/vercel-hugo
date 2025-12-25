@@ -102,8 +102,9 @@ html {
 
 /*搜索部分背景样式*/
 .header-big.css-color {
-    background-size: unset;
-    background-position: unset;
+    background-size: cover;          /* 让图片等比例缩放填满容器 */
+    background-position: center;     /* 图片居中显示 */
+    background-repeat: no-repeat;    /* 不重复平铺 */
     animation: unset;
 }
 
