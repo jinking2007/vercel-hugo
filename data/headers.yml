@@ -2,14 +2,14 @@
   icon: fa fa-home
   link: "./"
 
-- item: 文档
+#- item: 文档
   # icon: fa fa-user-secret
-  icon: fa fa-file
-  link: https://cici.pp.ua
+#  icon: fa fa-file
+#  link: https://cici.pp.ua
 
 - item: 博客
   icon: fa fa-blog
-  link: https://googhub.nyc.mn/
+#  link: https://googhub.nyc.mn/
 
 - item: 关于
   icon: fa fa-cog
