@@ -1,0 +1,14 @@
+<!-- layouts/_default/terms.html -->
+{{ define "main" }}
+<div class="archive">
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Data.Terms }}
+      <li>
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> 
+        ({{ .Count }})
+      </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
