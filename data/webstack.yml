@@ -323,14 +323,14 @@
           logo: xunjie.ico
           url: https://yasuo.xunjiepdf.com/
           description: 免费的在线压缩工具，支持图片、PDF、视频等多种格式
-    - title: 万能下载
-      logo: snapany.ico
-      url: https://snapany.com/zh
-      description: 万能的免费的视频图片下载工具
-    - title: 视频下载器
-      logo: youtubedownload.ico
-      url: https://vd6s.com/zh-cn3/
-      description: 油管，instagram免费的视频图片下载工具
+        - title: 万能下载
+          logo: snapany.ico
+          url: https://snapany.com/zh
+          description: 万能的免费的视频图片下载工具
+        - title: 视频下载器
+          logo: youtubedownload.ico
+          url: https://vd6s.com/zh-cn3/
+          description: 油管，instagram免费的视频图片下载工具
 
 
 - taxonomy: 数据资源
